@@ -18,7 +18,11 @@ const App = () => {
           name="Perrito 2"
           description="Otro perrito en adopción que necesita amor y cuidado."
         />
-        {/* Agrega más componentes Card aquí según sea necesario */}
+        <Card
+          image="ruta-de-la-imagen2.jpg"
+          name="Perrito 3"
+          description="Otro perrito en adopción que necesita amor y cuidado."
+        />
       </div>
       <Footer />
     </div>
