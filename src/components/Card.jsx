@@ -1,12 +1,12 @@
 import React from 'react';
 import Tags from './Tags';
 
-const Card = ({ image, name, description }) => {
+const Card = ({ imagen, nombre , descripcion }) => {
   return (
     <div className="card">
-      <img src={image} alt={name} />
-      <h2>{name}</h2>
-      <p>{description}</p>
+      <img src={imagen} alt={nombre} />
+      <h2>{nombre}</h2>
+      <p>{descripcion}</p>
       <Tags text="En adopción" color="success" />
     </div>
   );
