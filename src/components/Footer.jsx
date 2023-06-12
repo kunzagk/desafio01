@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({contenido}) => {
   return (
     <footer>
-      <p>Breve descripción de la galería de imágenes</p>
+      <p>{contenido}</p>
     </footer>
   );
 };
