@@ -1,7 +1,8 @@
 import React from 'react';
+import Badge from 'react-bootstrap/Badge';
 
 const Tags = ({ text, color }) => {
-  return <span className={`badge bg-${color}`}>{text}</span>;
+  return <Badge bg={color}>{text}</Badge>;
 };
 
 export default Tags;
